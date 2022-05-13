@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cucumber/godog/formatters"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/akaswenwilk/godog/formatters"
+	"github.com/akaswenwilk/godog/internal/utils"
 )
 
 func init() {

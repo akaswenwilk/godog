@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	txdb "github.com/DATA-DOG/go-txdb"
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 func init() {

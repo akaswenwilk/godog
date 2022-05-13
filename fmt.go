@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/formatters"
-	internal_fmt "github.com/cucumber/godog/internal/formatters"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/storage"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/formatters"
+	internal_fmt "github.com/akaswenwilk/godog/internal/formatters"
+	"github.com/akaswenwilk/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/storage"
 )
 
 // FindFmt searches available formatters registered

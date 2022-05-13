@@ -5,7 +5,7 @@ import (
 	"go/build"
 	"path/filepath"
 
-	"github.com/cucumber/godog/internal/builder"
+	"github.com/akaswenwilk/godog/internal/builder"
 	"github.com/spf13/cobra"
 )
 

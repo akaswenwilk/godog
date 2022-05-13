@@ -12,8 +12,8 @@ test: check-go-version
 	@echo "running all tests"
 	@go install ./...
 	@go fmt ./...
-	@go run honnef.co/go/tools/cmd/staticcheck@v0.2.2 github.com/cucumber/godog
-	@go run honnef.co/go/tools/cmd/staticcheck@v0.2.2 github.com/cucumber/godog/cmd/godog
+	@go run honnef.co/go/tools/cmd/staticcheck@v0.2.2 github.com/akaswenwilk/godog
+	@go run honnef.co/go/tools/cmd/staticcheck@v0.2.2 github.com/akaswenwilk/godog/cmd/godog
 	go vet ./...
 	go test -race ./...
 	godog -f progress -c 4
@@ -58,7 +58,7 @@ artifacts:
 
 define _build
 	mkdir $(ARTIFACT_DIR)/godog-$(VERS)-$1-$2
-	env GOOS=$1 GOARCH=$2 go build -ldflags "-X github.com/cucumber/godog.Version=$(VERS)" -o $(ARTIFACT_DIR)/godog-$(VERS)-$1-$2/godog ./cmd/godog
+	env GOOS=$1 GOARCH=$2 go build -ldflags "-X github.com/akaswenwilk/godog.Version=$(VERS)" -o $(ARTIFACT_DIR)/godog-$(VERS)-$1-$2/godog ./cmd/godog
 	cp README.md $(ARTIFACT_DIR)/godog-$(VERS)-$1-$2/README.md
 	cp LICENSE $(ARTIFACT_DIR)/godog-$(VERS)-$1-$2/LICENSE
 	cd $(ARTIFACT_DIR) && tar -c --use-compress-program="pigz --fast" -f godog-$(VERS)-$1-$2.tar.gz godog-$(VERS)-$1-$2 && cd ..

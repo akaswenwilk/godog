@@ -8,7 +8,7 @@ import (
 	"github.com/cucumber/messages-go/v16"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/models"
 )
 
 // BuildTestFeature creates a feature for testing purpose.

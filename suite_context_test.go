@@ -16,13 +16,13 @@ import (
 	"github.com/cucumber/messages-go/v16"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/formatters"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/parser"
-	"github.com/cucumber/godog/internal/storage"
-	"github.com/cucumber/godog/internal/tags"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/formatters"
+	"github.com/akaswenwilk/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/parser"
+	"github.com/akaswenwilk/godog/internal/storage"
+	"github.com/akaswenwilk/godog/internal/tags"
+	"github.com/akaswenwilk/godog/internal/utils"
 )
 
 // InitializeScenario provides steps for godog suite execution and
@@ -687,7 +687,7 @@ func (tc *godogFeaturesScenario) theRenderOutputWillBe(docstring *DocString) err
 	actualSuiteCtxReg := regexp.MustCompile(`suite_context_test.go:\d+`)
 
 	expectedSuiteCtxFuncReg := regexp.MustCompile(`SuiteContext.func(\d+)`)
-	actualSuiteCtxFuncReg := regexp.MustCompile(`github.com/cucumber/godog.InitializeScenario.func(\d+)`)
+	actualSuiteCtxFuncReg := regexp.MustCompile(`github.com/akaswenwilk/godog.InitializeScenario.func(\d+)`)
 
 	suiteCtxPtrReg := regexp.MustCompile(`\*suiteContext`)
 

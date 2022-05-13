@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 const (

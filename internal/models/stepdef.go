@@ -9,7 +9,7 @@ import (
 
 	"github.com/cucumber/messages-go/v16"
 
-	"github.com/cucumber/godog/formatters"
+	"github.com/akaswenwilk/godog/formatters"
 )
 
 var typeOfBytes = reflect.TypeOf([]byte(nil))

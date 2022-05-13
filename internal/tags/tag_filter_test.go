@@ -6,7 +6,7 @@ import (
 	"github.com/cucumber/messages-go/v16"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cucumber/godog/internal/tags"
+	"github.com/akaswenwilk/godog/internal/tags"
 )
 
 type tag = messages.PickleTag

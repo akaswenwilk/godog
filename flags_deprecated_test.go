@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/formatters"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/formatters"
 )
 
 func TestFlagsShouldRandomizeAndGenerateSeed(t *testing.T) {

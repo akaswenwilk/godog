@@ -11,9 +11,9 @@ import (
 
 	"github.com/cucumber/messages-go/v16"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/utils"
 )
 
 var (

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/cucumber/godog"
+import "github.com/akaswenwilk/godog"
 
 func InitializeScenario(ctx *godog.ScenarioContext) {
 

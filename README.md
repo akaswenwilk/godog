@@ -1,9 +1,9 @@
 [![#StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://vshymanskyy.github.io/StandWithUkraine)
-[![Build Status](https://github.com/cucumber/godog/workflows/test/badge.svg)](https://github.com/cucumber/godog/actions?query=branch%main+workflow%3Atest)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/cucumber/godog)](https://pkg.go.dev/github.com/cucumber/godog)
-[![codecov](https://codecov.io/gh/cucumber/godog/branch/master/graph/badge.svg)](https://codecov.io/gh/cucumber/godog)
-[![pull requests](https://oselvar.com/api/badge?label=pull%20requests&csvUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcucumber%2Foselvar-github-metrics%2Fmain%2Fdata%2Fcucumber%2Fgodog%2FpullRequests.csv)](https://oselvar.com/github/cucumber/oselvar-github-metrics/main/cucumber/godog)
-[![issues](https://oselvar.com/api/badge?label=issues&csvUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcucumber%2Foselvar-github-metrics%2Fmain%2Fdata%2Fcucumber%2Fgodog%2Fissues.csv)](https://oselvar.com/github/cucumber/oselvar-github-metrics/main/cucumber/godog)
+[![Build Status](https://github.com/akaswenwilk/godog/workflows/test/badge.svg)](https://github.com/akaswenwilk/godog/actions?query=branch%main+workflow%3Atest)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/akaswenwilk/godog)](https://pkg.go.dev/github.com/akaswenwilk/godog)
+[![codecov](https://codecov.io/gh/akaswenwilk/godog/branch/master/graph/badge.svg)](https://codecov.io/gh/akaswenwilk/godog)
+[![pull requests](https://oselvar.com/api/badge?label=pull%20requests&csvUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcucumber%2Foselvar-github-metrics%2Fmain%2Fdata%2Fcucumber%2Fgodog%2FpullRequests.csv)](https://oselvar.com/github/cucumber/oselvar-github-metrics/main/akaswenwilk/godog)
+[![issues](https://oselvar.com/api/badge?label=issues&csvUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcucumber%2Foselvar-github-metrics%2Fmain%2Fdata%2Fcucumber%2Fgodog%2Fissues.csv)](https://oselvar.com/github/cucumber/oselvar-github-metrics/main/akaswenwilk/godog)
 
 # Godog
 
@@ -11,7 +11,7 @@
 
 **The API is likely to change a few times before we reach 1.0.0**
 
-Please read the full README, you may find it very useful. And do not forget to peek into the [Release Notes](https://github.com/cucumber/godog/blob/master/release-notes) and the [CHANGELOG](https://github.com/cucumber/godog/blob/master/CHANGELOG.md) from time to time.
+Please read the full README, you may find it very useful. And do not forget to peek into the [Release Notes](https://github.com/akaswenwilk/godog/blob/master/release-notes) and the [CHANGELOG](https://github.com/akaswenwilk/godog/blob/master/CHANGELOG.md) from time to time.
 
 Package godog is the official Cucumber BDD framework for Golang, it merges specification and test documentation into one cohesive whole, using Gherkin formatted scenarios in the format of Given, When, Then.
 
@@ -46,14 +46,14 @@ When automated testing is this much fun, teams can easily protect themselves fro
 
 ## Install
 ```
-go install github.com/cucumber/godog/cmd/godog@v0.12.0
+go install github.com/akaswenwilk/godog/cmd/godog@v0.12.0
 ```
 Adding `@v0.12.0` will install v0.12.0 specifically instead of master.
 
-With `go` version prior to 1.17, use `go get github.com/cucumber/godog/cmd/godog@v0.12.0`.
+With `go` version prior to 1.17, use `go get github.com/akaswenwilk/godog/cmd/godog@v0.12.0`.
 Running `within the $GOPATH`, you would also need to set `GO111MODULE=on`, like this:
 ```
-GO111MODULE=on go get github.com/cucumber/godog/cmd/godog@v0.12.0
+GO111MODULE=on go get github.com/akaswenwilk/godog/cmd/godog@v0.12.0
 ```
 
 ## Contributions
@@ -76,7 +76,7 @@ Here are some useful channels to try:
 
 You can find a few examples [here](/_examples).
 
-**Note** that if you want to execute any of the examples and have the Git repository checked out in the `$GOPATH`, you need to use: `GO111MODULE=off`. [Issue](https://github.com/cucumber/godog/issues/344) for reference.
+**Note** that if you want to execute any of the examples and have the Git repository checked out in the `$GOPATH`, you need to use: `GO111MODULE=off`. [Issue](https://github.com/akaswenwilk/godog/issues/344) for reference.
 
 ### Godogs
 
@@ -92,7 +92,7 @@ Initiate the go module - `go mod init godogs`
 
 #### Step 2 - Install godog
 
-Install the godog binary - `go get github.com/cucumber/godog/cmd/godog`
+Install the godog binary - `go get github.com/akaswenwilk/godog/cmd/godog`
 
 #### Step 3 - Create gherkin feature
 
@@ -159,7 +159,7 @@ Create and copy the step definitions into a new file - `vim godogs_test.go`
 ``` go
 package main
 
-import "github.com/cucumber/godog"
+import "github.com/akaswenwilk/godog"
 
 func iEat(arg1 int) error {
         return godog.ErrPending
@@ -258,7 +258,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 func thereAreGodogs(available int) error {
@@ -359,7 +359,7 @@ Everyone interacting in this codebase and issue tracker is expected to follow th
 - [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter),
   may be used in order to generate **html** reports together with **cucumber** output formatter. See the [following docker image](https://github.com/myie/cucumber-html-reporter) for usage details.
 - [how to use godog by semaphoreci](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
-- see [examples](https://github.com/cucumber/godog/tree/master/_examples)
+- see [examples](https://github.com/akaswenwilk/godog/tree/master/_examples)
 - see extension [AssistDog](https://github.com/hellomd/assistdog),
   which may have useful **gherkin.DataTable** transformations or comparison methods for assertions.
 
@@ -392,7 +392,7 @@ package main_test
 import (
 	"testing"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 func TestFeatures(t *testing.T) {
@@ -437,8 +437,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cucumber/godog"
-	"github.com/cucumber/godog/colors"
+	"github.com/akaswenwilk/godog"
+	"github.com/akaswenwilk/godog/colors"
 	"github.com/spf13/pflag" // godog v0.11.0 and later
 )
 
@@ -599,10 +599,10 @@ A simple example can be [found here](/_examples/custom-formatter).
 ## License
 **Godog** and **Gherkin** are licensed under the [MIT][license] and developed as a part of the [cucumber project][cucumber]
 
-[godoc]: https://pkg.go.dev/github.com/cucumber/godog "Documentation on godog"
+[godoc]: https://pkg.go.dev/github.com/akaswenwilk/godog "Documentation on godog"
 [golang]: https://golang.org/  "GO programming language"
 [behat]: http://docs.behat.org/ "Behavior driven development framework for PHP"
 [cucumber]: https://cucumber.io/ "Behavior driven development framework"
 [license]: https://en.wikipedia.org/wiki/MIT_License "The MIT license"
-[contributing guide]: https://github.com/cucumber/godog/blob/main/CONTRIBUTING.md
+[contributing guide]: https://github.com/akaswenwilk/godog/blob/main/CONTRIBUTING.md
 [community Slack]: https://cucumber.io/community#slack

@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog"
-	"github.com/cucumber/godog/internal/builder"
+	"github.com/akaswenwilk/godog"
+	"github.com/akaswenwilk/godog/internal/builder"
 )
 
 func InitializeScenario(ctx *godog.ScenarioContext) {}
@@ -51,7 +51,7 @@ var builderTestFile = `package godogs
 import (
 	"fmt"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 func thereAreGodogs(available int) error {
@@ -91,7 +91,7 @@ var builderXTestFile = `package godogs_test
 import (
 	"fmt"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 
 	"godogs"
 )
@@ -138,7 +138,7 @@ func main() {
 
 var emptyBuilderTestFile = `package godogs
 
-import "github.com/cucumber/godog"
+import "github.com/akaswenwilk/godog"
  
 func InitializeScenario(ctx *godog.ScenarioContext) {}
 `

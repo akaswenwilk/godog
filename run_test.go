@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/formatters"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/storage"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/formatters"
+	"github.com/akaswenwilk/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/storage"
 )
 
 func okStep() error {

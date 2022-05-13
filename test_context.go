@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"regexp"
 
-	"github.com/cucumber/godog/formatters"
-	"github.com/cucumber/godog/internal/builder"
-	"github.com/cucumber/godog/internal/models"
+	"github.com/akaswenwilk/godog/formatters"
+	"github.com/akaswenwilk/godog/internal/builder"
+	"github.com/akaswenwilk/godog/internal/models"
 	"github.com/cucumber/messages-go/v16"
 )
 

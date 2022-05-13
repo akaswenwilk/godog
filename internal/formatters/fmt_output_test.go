@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 const fmtOutputTestsFeatureDir = "formatter-tests/features"
 
 func Test_FmtOutput(t *testing.T) {
 	pkg := os.Getenv("GODOG_TESTED_PACKAGE")
-	os.Setenv("GODOG_TESTED_PACKAGE", "github.com/cucumber/godog")
+	os.Setenv("GODOG_TESTED_PACKAGE", "github.com/akaswenwilk/godog")
 
 	featureFiles, err := listFmtOutputTestsFeatureFiles()
 	require.Nil(t, err)

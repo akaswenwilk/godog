@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cucumber/godog/cmd/godog/internal"
+	"github.com/akaswenwilk/godog/cmd/godog/internal"
 )
 
 func main() {

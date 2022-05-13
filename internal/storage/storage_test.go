@@ -7,9 +7,9 @@ import (
 	"github.com/cucumber/messages-go/v16"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/storage"
-	"github.com/cucumber/godog/internal/testutils"
+	"github.com/akaswenwilk/godog/internal/models"
+	"github.com/akaswenwilk/godog/internal/storage"
+	"github.com/akaswenwilk/godog/internal/testutils"
 )
 
 func Test_MustGetPickle(t *testing.T) {

@@ -3,7 +3,7 @@ package godog_test
 import (
 	"testing"
 
-	"github.com/cucumber/godog"
+	"github.com/akaswenwilk/godog"
 )
 
 func ExampleTestSuite_Run_subtests() {

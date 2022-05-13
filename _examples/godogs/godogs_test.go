@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cucumber/godog"
-	"github.com/cucumber/godog/colors"
+	"github.com/akaswenwilk/godog"
+	"github.com/akaswenwilk/godog/colors"
 	"github.com/spf13/pflag"
 )
 

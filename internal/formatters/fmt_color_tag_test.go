@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cucumber/godog/colors"
+	"github.com/akaswenwilk/godog/colors"
 )
 
 type csiState int

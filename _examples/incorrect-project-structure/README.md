@@ -1,4 +1,4 @@
-This example is to help reproduce issue [#383](https://github.com/cucumber/godog/issues/383)
+This example is to help reproduce issue [#383](https://github.com/akaswenwilk/godog/issues/383)
 
 To run the example: 
 

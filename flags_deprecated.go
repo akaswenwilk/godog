@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/utils"
 )
 
 // repeats a space n times

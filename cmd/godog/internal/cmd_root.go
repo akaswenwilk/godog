@@ -6,8 +6,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/flags"
+	"github.com/akaswenwilk/godog/colors"
+	"github.com/akaswenwilk/godog/internal/flags"
 )
 
 var version bool
